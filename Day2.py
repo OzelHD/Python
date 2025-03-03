@@ -1,3 +1,9 @@
+# Write a small program that:
+
+# Asks the user for two numbers.
+# Asks the user for an operation (+, -, *, /, //, %, **).
+# Performs the operation and prints the result.
+
 num = int(input("Please enter a number:\n"))
 num2 = int(input("And another one:\n"))
 operator = input("Please enter an operator (+, -, *, /, //, %, **):\n")
