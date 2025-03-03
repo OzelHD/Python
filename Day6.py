@@ -4,11 +4,32 @@
 # 3️⃣ Creates a Student class (inherits from Person) and adds an extra attribute for grade.
 # 4️⃣ Overrides the method to also display the student's grade.
 
-class person:
-    name = str(input("name"))
-    age = int(input("Age"))
 
-print(person.name)
+class Person:
+    def __init__(self, name, age, attributes):
+        self.name = name
+        self.age = age
+        self.attributes = attributes
+    
+    def display_info(self):
+        print(f"Name: {self.name}, Age: {self.age}, Attributes: {self.attributes}")
+
+
+class Student(Person):
+    def __init__(self, name, age, attributes, grade):
+        super().__init__(name, age, attributes)     #inherit from Person.
+        self.grade = grade
+
+    def display_info(self):
+        print(f"Name: {self.name}, Age: {self.age}, Attributes: {self.attributes}, Grade: {self.grade}")  
+
+my_person = Person("S1", 21, "Likes Bananas")
+my_person.display_info()
+
+my_student2 = Student("S2", 22, "Likes Pineapples", 4.8)
+my_student2.display_info()
+
+
 
 # def fkt(x, y):
 #     x = x+2
