@@ -1,11 +1,11 @@
-Name,Age,City
-Alice,25,New York
-Bob,34,Los Angeles
-Charlie,29,Chicago
-David,41,Houston
-Eve,23,Phoenix
-Frank,37,San Diego
-Grace,31,Dallas
-Hannah,28,San Jose
-Ian,45,Austin
-Jack,22,Denver
+Name,Age,City,Salary
+Alice,25,New York,31000
+Bob,34,Los Angeles,41000
+Charlie,29,Chicago,21000
+David,41,Houston,5900
+Eve,23,Phoenix,3100
+Frank,37,San Diego,77771
+Grace,31,Dallas,100000
+Hannah,28,San Jose,39000
+Ian,45,Austin,12000
+Jack,22,Denver,42000
